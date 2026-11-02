@@ -1,0 +1,19 @@
+img {
+  width: 100%;
+  min-width: 700px; 
+  max-width: 1100px; 
+
+  display: block;  
+  margin: auto;   
+
+  animation: fadeIn .9s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
